@@ -1,0 +1,119 @@
+/* — 基本設定 — */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    background-color: #fffafc;
+    color: #444;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    padding: 4rem 1rem 2rem;
+    background-color: #ffe8f0;
+}
+
+.nav {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.nav a {
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+/* ヒーロー部分 */
+.hero h1 {
+    font-size: 2rem;
+    color: #ff6fa0;
+}
+
+.hero p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+/* 作品セクション */
+.works {
+    padding: 3rem 1rem;
+}
+
+.works h2 {
+    text-align: center;
+    color: #dd6699;
+    margin-bottom: 2rem;
+}
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2rem;
+}
+
+.work-item {
+    background-color: #fceef5;
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(200, 100, 150, 0.1);
+}
+
+.work-item img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+}
+
+
+/* About セクション */
+.about {
+    padding: 3rem 1rem;
+    background-color: #fef7fb;
+    text-align: center;
+}
+
+.about h2 {
+    color: #dd6699;
+    margin-bottom: 1.5rem;
+}
+
+.about-photo {
+    width: 160px;
+    border-radius: 50%;
+    border: 4px solid #ffc0cb;
+    margin-bottom: 1rem;
+}
+
+/* Contact セクション */
+.contact {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #dd6699;
+    margin-bottom: 1rem;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #ffe8f0;
+    margin-top: 3rem;
+}
+
+footer a {
+    font-size: 0.9rem;
+    color: #dd6699;
+}
